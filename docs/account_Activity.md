@@ -2,23 +2,23 @@
 
 This table contains Stores activity data for accounts.
 
-- ACTIVITY_ID	VARCHAR(18)
-- SFDC_ACCOUNT_ID	VARCHAR(18)
-- ACTIVITYDATE	TIMESTAMP_NTZ(9)
-- ACTIVITYSUBTYPE	VARCHAR(9)
-- ACTIVITYTYPE	VARCHAR(30)
-- CALLDISPOSITION	VARCHAR(52)
-- CALLDURATIONINSECONDS	VARCHAR(4)
+- ACTIVITY_ID	VARCHAR(18) - Activity ID
+- SFDC_ACCOUNT_ID 	VARCHAR(18) - Primary Key, Unique Identifier for Account
+- ACTIVITYDATE	TIMESTAMP_NTZ(9) - Date that the Activity was done
+- ACTIVITYSUBTYPE	 VARCHAR(9) - Activity Sub Type whether Email or Call
+- ACTIVITYTYPE	VARCHAR(30) - Activity Type Email, Call, Meeting
+- CALLDISPOSITION	 VARCHAR(52) - Call details to the customer
+- CALLDURATIONINSECONDS	VARCHAR(4) - Duration of the call
 - CALLOBJECT	VARCHAR(30)
-- CALLTYPE	VARCHAR(8)
-- CREATEDBYID	VARCHAR(18)
-- CREATEDDATE	TIMESTAMP_NTZ(9)
-- DURATIONINMINUTES	VARCHAR(3)
+- CALLTYPE	VARCHAR(8) - type of call inbound or outbound
+- CREATEDBYID	VARCHAR(18) - data record created by
+- CREATEDDATE	TIMESTAMP_NTZ(9) - data record created by
+- DURATIONINMINUTES	VARCHAR(3)- Call duration in minutes
 - ENDDATETIME	VARCHAR(19)
-- ISALLDAYEVENT	BOOLEAN
-- ISCLOSED	BOOLEAN
+- ISALLDAYEVENT	BOOLEAN - indicates if the activity is an all day event
+- ISCLOSED	BOOLEAN - Indicates if the activity is complete
 - ISHIGHPRIORITY	BOOLEAN
-- ISREMINDERSET	BOOLEAN
+- ISREMINDERSET	BOOLEAN - if there is a reminder set to do the activity
 - ISTASK	BOOLEAN
 - LASTMODIFIEDBYID	VARCHAR(18)
 - LASTMODIFIEDDATE	TIMESTAMP_NTZ(9)
@@ -36,3 +36,4 @@ This table contains Stores activity data for accounts.
 - WHATID	VARCHAR(18)
 - WHOID	VARCHAR(18)
 - BATCH_LAST_RUN	TIMESTAMP_NTZ(9)
+

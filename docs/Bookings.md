@@ -93,4 +93,4 @@ This table contains Stores booking data for the accounts
 - CHANNEL_TERRITORY__C	VARCHAR(28)
 - ORIGINAL_AMOUNT__C	VARCHAR(9)
 - REV_REC_MRR__C	VARCHAR(9)
-- SFDC_ACCOUNT_ID	VARCHAR(18)
+- SFDC_ACCOUNT_ID	VARCHAR(18) [Primary Key Not Null] - Unique identifier for accounts
