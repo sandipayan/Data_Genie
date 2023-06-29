@@ -1,0 +1,52 @@
+**Table 6: guided_selling_greenfields ** (Greenfield accounts for guided selling)
+
+This table contains Greenfield accounts for guided selling
+
+- DEMANDBASE_ACCOUNT_ID	NUMBER(38,0) - This is new account ID, not existing customers
+- DEMANDBASE_ACCOUNT_NAME	VARCHAR(48) - New Accounts or Potential Customers
+- DEMANDBASE_ACCOUNT_DOMAIN	VARCHAR(23) - Domain for New Accounts or Potential Customers
+- ZM_AE_NAME	VARCHAR(13) - Account Executive or Seller
+- ZM_AE_EMAIL	VARCHAR(20) - Account Executive or Sales Person email
+- ZM_SFDC_ID	VARCHAR(18) - Salesforce Account ID
+- TOTAL_PAGE_VIEWS_LAST_30_DAYS	NUMBER(38,0) - Customers Page Visit in last 30 days. Shows Intent.
+- PROD_PAGE	VARCHAR(8) - Mostly Null, avoid for filtering
+- PROD_PAGE_VIEWS	VARCHAR(1)
+- COMPETITOR	VARCHAR(36) - Competitor Products used by Potential Customers
+- COMPETITOR_INTEREST	VARCHAR(6) - Competitor Interest
+- ENGAGEMENT_SCORE	NUMBER(4,1) - Current Engagement Score with Company
+- PIPELINE_PREDICT_SCORE	NUMBER(2,2) - Pipeline Predict Score to convert Potential Customer to Actual Customer
+- QUALIFICATION_SCORE	NUMBER(2,2)
+- PIPE_RANK	NUMBER(38,0)
+- QUAL_RANK	NUMBER(38,0)
+- PROD_PAGE_VIEW_RANK	NUMBER(38,0)
+- MIN_PEOPLE_ALL_KEYWORDS_RANK	NUMBER(38,0)
+- ALL_URL_VIEWS_RANK	NUMBER(38,0)
+- PEOPLE_SEARCHING_RANK	NUMBER(38,0)
+- TECHNO_RANK	NUMBER(38,0)
+- MIN_PEOPLE_ALL_KEYWORDS_PAST_30	NUMBER(38,0)
+- MIN_PEOPLE_KEYWORD_PAST_30	NUMBER(38,0)
+- KEYWORD_SET_NAME	VARCHAR(19)
+- KEYWORD_URL_MATCH	BOOLEAN - Keyword URL match when customer was searching for Zoom or similar products
+- KEYWORD_TECHNO_MATCH	BOOLEAN - Keyword match when customer was searching for Zoom or similar products
+- MATCHED_URL_BUCKET	VARCHAR(16777216)
+- GENERAL_PROPENSITY	NUMBER(38,0) - Intent Score
+- PRODUCT_PROPENSITY	NUMBER(38,0) - Product Intent Score
+- COMBINED_PROPENSITY	NUMBER(38,0) - Total Intent Score
+- ACCOUNTSOURCE	VARCHAR(16) - Source of information for Potential Customer
+- ANNUALREVENUE	VARCHAR(9) - Company Revenue
+- BILLINGCITY	VARCHAR(17) -
+- BILLINGCOUNTRY	VARCHAR(14)
+- BILLINGLATITUDE	VARCHAR(16777216)
+- BILLINGLONGITUDE	VARCHAR(16777216)
+- BILLINGPOSTALCODE	VARCHAR(19) - Postal Code for Potential Customer
+- BILLINGSTATE	VARCHAR(14) - State Address for Potential Customer
+- BILLINGSTREET	VARCHAR(49) - Street Address
+- ACCOUNT_LEAD	VARCHAR(20) - Potential Customer Lead Name
+- DESCRIPTION	VARCHAR(578)
+- INDUSTRY	VARCHAR(34) - Potential Customer Industry
+- PHONE	VARCHAR(14) - Customer Lead Contact
+- EMPLOYEE_COUNT	VARCHAR(10) - Potential Customer Employee Count
+- CONTRACT_RENEWAL_DATE	VARCHAR(10) - Contract Renewal Date with Competitor
+- LS_COMPANY_SIZE_RANGE__C	VARCHAR(10) - Company Size for Potential Customer
+- ZUORA__ACTIVE__C	VARCHAR(16777216)
+

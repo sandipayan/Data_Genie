@@ -1,0 +1,39 @@
+**Table 1: ACCOUNT_ACTIVITY** (Stores activity data for accounts)
+
+This table contains Stores activity data for accounts.
+
+- ACTIVITY_ID	VARCHAR(18) - Activity ID
+- SFDC_ACCOUNT_ID 	VARCHAR(18) - Primary Key, Unique Identifier for Account
+- ACTIVITYDATE	TIMESTAMP_NTZ(9) - Date that the Activity was done
+- ACTIVITYSUBTYPE	 VARCHAR(9) - Activity Sub Type whether Email or Call
+- ACTIVITYTYPE	VARCHAR(30) - Activity Type Email, Call, Meeting
+- CALLDISPOSITION	 VARCHAR(52) - Call details to the customer
+- CALLDURATIONINSECONDS	VARCHAR(4) - Duration of the call
+- CALLOBJECT	VARCHAR(30)
+- CALLTYPE	VARCHAR(8) - type of call inbound or outbound
+- CREATEDBYID	VARCHAR(18) - data record created by
+- CREATEDDATE	TIMESTAMP_NTZ(9) - data record created by
+- DURATIONINMINUTES	VARCHAR(3)- Call duration in minutes
+- ENDDATETIME	VARCHAR(19)
+- ISALLDAYEVENT	BOOLEAN - indicates if the activity is an all day event
+- ISCLOSED	BOOLEAN - Indicates if the activity is complete
+- ISHIGHPRIORITY	BOOLEAN
+- ISREMINDERSET	BOOLEAN - if there is a reminder set to do the activity
+- ISTASK	BOOLEAN
+- LASTMODIFIEDBYID	VARCHAR(18)
+- LASTMODIFIEDDATE	TIMESTAMP_NTZ(9)
+- LOCATION	VARCHAR(36)
+- OWNERID	VARCHAR(18)
+- PRIORITY	VARCHAR(6)
+- REMINDERDATETIME	VARCHAR(19)
+- RINGCENTRAL__CALL_RECORDING	VARCHAR(16777216)
+- RINGCENTRAL__RC_LOGGING_TYPE	VARCHAR(4)
+- RINGCENTRAL__RECORDING_INFORMATION	VARCHAR(16777216)
+- STARTDATETIME	VARCHAR(19)
+- STATUS	VARCHAR(9)
+- SUBJECT	VARCHAR(200)
+- SYSTEMMODSTAMP	VARCHAR(19)
+- WHATID	VARCHAR(18)
+- WHOID	VARCHAR(18)
+- BATCH_LAST_RUN	TIMESTAMP_NTZ(9)
+
