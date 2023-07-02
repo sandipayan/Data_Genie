@@ -1,6 +1,16 @@
-# Data Genie - Chat with your Data
+# Data Genie - Your Virtual Assistant for Sales
 
-Data Genie is an intuitive and user-friendly application that allows you to interact with your Snowflake data using natural language queries. Type in your questions or requests, and SnowChat will generate the appropriate SQL query and return the data you need. No more complex SQL queries or digging through tables - SnowChat makes it easy to access your data!
+AI-Powered Data Genie, the ultimate virtual assistant for sales professionals with an intuitive and user-friendly tools that allows you to interact with your Snowflake data using natural language queries.
+## Access key information on your customers' information:
+- Product Usage
+- Seller Engagement
+- Pipeline
+- Bookings
+- Target Attainment
+- Compensation
+- Churn
+  and more - all in one secure place!
+
 
 ## Features
 
@@ -12,4 +22,3 @@ Here are some example queries you can try with SnowChat:
 
 - Show me the total revenue for each product category.
 - Who are the top 10 customers by sales?
-

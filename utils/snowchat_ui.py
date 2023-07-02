@@ -75,7 +75,7 @@ def reset_chat_history():
     This function is used to reset the chat history.
     """
     st.session_state["generated"] = [
-        "Hey there, I'm Chatty McQueryFace, your SQL-speaking sidekick, ready to chat up Snowflake and fetch answers faster than a snowball fight in summer! ❄️🔍"
+        "Hey there, I'm your Data Genie, I speak your language. Ask me any data questions !📊 📈️"
     ]
     st.session_state["past"] = ["Hi..."]
     st.session_state["stored_session"] = []

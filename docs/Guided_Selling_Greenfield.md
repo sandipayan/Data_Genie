@@ -1,4 +1,4 @@
-**Table 6: guided_selling_greenfields ** (Greenfield accounts for guided selling)
+**Table 6: guided_selling_greenfield ** (Greenfield or new accounts to pursue for guided selling)
 
 This table contains Greenfield accounts for guided selling
 
@@ -7,7 +7,7 @@ This table contains Greenfield accounts for guided selling
 - DEMANDBASE_ACCOUNT_DOMAIN	VARCHAR(23) - Domain for New Accounts or Potential Customers
 - ZM_AE_NAME	VARCHAR(13) - Account Executive or Seller
 - ZM_AE_EMAIL	VARCHAR(20) - Account Executive or Sales Person email
-- ZM_SFDC_ID	VARCHAR(18) - Salesforce Account ID
+- SFDC_ACCOUNT_ID	VARCHAR(18) - Primary Key similar to sfdc_account_id . Salesforce Account ID
 - TOTAL_PAGE_VIEWS_LAST_30_DAYS	NUMBER(38,0) - Customers Page Visit in last 30 days. Shows Intent.
 - PROD_PAGE	VARCHAR(8) - Mostly Null, avoid for filtering
 - PROD_PAGE_VIEWS	VARCHAR(1)

@@ -1,4 +1,4 @@
-# snowChat 💬❄️
+# Data Genie 🧞‍
 
 [![Python](https://img.shields.io/badge/-Python-3776AB?style=flat-square&logo=python&logoColor=white)](https://www.python.org/)
 [![Streamlit](https://img.shields.io/badge/-Streamlit-FF4B4B?style=flat-square&logo=streamlit&logoColor=white)](https://streamlit.io/)
@@ -8,8 +8,8 @@
 
 [![Streamlit App](https://static.streamlit.io/badges/streamlit_badge_black_white.svg)](https://snowchat.streamlit.app/)
 
-**snowChat** is an intuitive and user-friendly application that allows users to interact with their Snowflake data using natural language queries. Type in your questions or requests, and SnowChat will generate the appropriate SQL query and return the data you need. No more complex SQL queries or digging through tables - SnowChat makes it easy to access your data! By bringing data one step closer, SnowChat empowers users to make data-driven decisions faster and more efficiently, reducing the barriers between users and the insights they seek.
-
+**Data Genie**  is a chatbot designed to help you with Snowflake DWH. It is built using OpenAI's GPT-4 and Streamlit.
+Go to the GitHub repo to learn more about the project.
 #
 
 ![pika-1682575152623-1x](https://user-images.githubusercontent.com/53030784/234772753-228ad22b-3939-47a5-a4cc-c2aa7c08577a.jpeg)
@@ -47,18 +47,3 @@
 2. Type your query in natural language or SQL format in the input box.
 3. Press "Submit" to generate the response.
 4. The chatbot will generate a response based on your query and display the result, including any relevant data or SQL code.
-
-## 🚀 Additional Enhancements
-
-1. **Automation**: Create a generalized script that retrieves schema information from Snowflake automatically.
-2. **Platform Integration**: Connect snowChat with popular communication platforms like Slack or Discord for seamless interaction.
-3. **Voice Integration**: Implement voice recognition and text-to-speech functionality to make the chatbot more interactive and user-friendly.
-4. **Advanced Analytics**: Integrate with popular data visualization libraries like Plotly or Matplotlib to generate interactive visualizations based on the user's queries (AutoGPT).
-
-## 🤝 Contributing
-
-Feel free to contribute to this project by submitting a pull request or opening an issue. Your feedback and suggestions are greatly appreciated!
-
-## 📄 License
-
-This project is licensed under the MIT License - see the [LICENSE](https://choosealicense.com/licenses/mit/) file for details.

@@ -68,6 +68,8 @@ with open("ui/sidebar.md", "r") as sidebar_file:
 with open("ui/styles.md", "r") as styles_file:
     styles_content = styles_file.read()
 
+st.sidebar.image("genie_pic.png", use_column_width=True)
+
 # Display the DDL for the selected table
 st.sidebar.markdown(sidebar_content)
 
@@ -82,7 +84,7 @@ st.write(styles_content, unsafe_allow_html=True)
 
 if "generated" not in st.session_state:
     st.session_state["generated"] = [
-        "Hey there, I'm your Data Genie, your SQL-speaking sidekick,Ask me a question! 🧞‍"
+        "Hey there, I'm your Data Genie, I speak your language,Ask me any data question! 📈"
     ]
 if "past" not in st.session_state:
     st.session_state["past"] = ["Hey!"]
