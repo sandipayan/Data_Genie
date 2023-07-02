@@ -12,8 +12,6 @@
 Go to the GitHub repo to learn more about the project.
 #
 
-![pika-1682575152623-1x](https://user-images.githubusercontent.com/53030784/234772753-228ad22b-3939-47a5-a4cc-c2aa7c08577a.jpeg)
-
 ## 🌟 Features
 
 - Interactive and user-friendly interface
