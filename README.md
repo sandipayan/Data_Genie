@@ -22,7 +22,7 @@ Go to the GitHub repo to learn more about the project.
 ## 🛠️ Installation
 
 1. Clone this repository:
-   git clone https://github.com/yourusername/snowchat.git
+   git clone git@github.com:sandipayan/Data_Genie.git
 
 2. Install the required packages:
    cd snowchat
