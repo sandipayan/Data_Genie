@@ -17,12 +17,12 @@ class Snowddl:
         ddl_files = {
             "Account_Dim": "sql/ddl_account_dim.sql",
             "contract_and_renewal": "sql/ddl_contract_and_renewal.sql",
-            "Bookings": "sql/ddl_Bookings.sql",
-            "Guided_Selling_Greenfield": "sql/ddl_Guided_Selling_Greenfield.sql",
-            "Quota_Target": "sql/ddl_Quota_Target.sql",
+            "Bookings": "sql/ddl_bookings.sql",
+            "Guided_Selling_Greenfield": "sql/ddl_guided_selling_greenfield.sql",
+            "Quota_Target": "sql/ddl_quota_target.sql",
             "risk_reason": "sql/ddl_risk_reason.sql",
             "account_activity": "sql/ddl_account_activity.sql",
-            "Cross_Sell_Scores": "sql/ddl_Cross_Sell_Scores.sql",
+            "Cross_Sell_Scores": "sql/ddl_cross_sell_scores.sql",
 
         }
 
